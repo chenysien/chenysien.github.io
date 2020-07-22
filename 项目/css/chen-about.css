@@ -1,0 +1,104 @@
+			*{
+				margin:0px;
+				padding:0px;
+			}
+			.header{
+				width:100%;
+				height:60px;
+				background:#484848;
+			}
+			.banner{
+				height: 340px;
+				background: url(../img/chen/chen-banner.jpg) center top no-repeat;
+				position: relative;
+			}
+			.nav-bg{
+				position: absolute;
+				width: 100%;
+				height: 58px;
+				bottom: 0;
+				left: 0;
+				background: #000;
+				opacity:0.2;
+			}
+			.nav{
+				position: absolute;
+				width: 50%;
+				height: 58px;
+				bottom: 0;
+				left: 50%;
+				margin-left:-25%;
+				text-align: center;
+				
+			}
+			.banner>.nav>a{
+				float: left;
+				width: 50%;
+				height: 58px;
+				line-height: 58px;
+				position: relative;
+				text-decoration: none;	
+			}
+			.banner>.nav>a>span{
+				display: inline-block;
+				position: absolute;
+				left: 0%;
+				top: 0;
+				width: 100%;
+				height: 58px;			
+			}
+		
+			.banner>.nav>a>i{
+				font-size: 18px;
+				font-style: normal;
+				color: #fff;
+				position: relative;
+				z-index: 9;
+				text-align: center;
+				line-height: 58px;
+				text-decoration: none;
+                outline: 0;
+			}
+			.centaral-box{
+				padding-top: 20px;
+				padding-bottom: 60px;
+				border: 1px solid black;
+			}
+			.centaral-box>.centaral-body{
+				width: 78%;
+				margin-left: auto;
+				margin-right: auto;	
+				overflow: hidden;	
+			}
+			.centaral-box>.centaral-body>.centaral-body-right{
+				width: 55%;
+				margin-top: 32px;
+				float: right;
+			}
+            .centaral-box>.centaral-body>.centaral-body-right>span{
+            	float: left;
+				letter-spacing: 2px;
+				font-size: 18px;
+				line-height: 48px;
+            }
+            .centaral-box>.centaral-body>.centaral-body-right>.zi-vlaue{
+            	 width: auto;
+            }
+            .centaral-box>.centaral-body>.centaral-body-right>.centaral-body-right-zi{
+            	width: 550px;
+            	height:50px ;
+            }
+             .centaral-box>.centaral-body>.centaral-body-right>.centaral-body-right-zi>span{
+            	float: left;
+				letter-spacing: 2px;
+				font-size: 18px;
+				line-height: 48px;
+            }
+            .centaral-box>.centaral-body>.centaral-body-right>.centaral-body-right-zi>.zi-vlaue{
+            	width: auto;
+            }
+            .centaral-box>.centaral-body>.centaral-body-right>.right-img{
+              	margin-top: 14px;
+                width: 80%;
+            } 
+            
